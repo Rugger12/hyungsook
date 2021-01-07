@@ -8,7 +8,7 @@ tagline:          'Hyungsook Kim'
 description:      
                   한양대학교 부교수
                   
-url:              'https://hyungsook.github.io/'
+url:              'https://hyungsook.netlify.app/'
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -18,7 +18,7 @@ baseurl:          ''
 
 author:
   name:           'hyungsook Kim'
-  url:            https://hyungsook.github.io/
+  url:            https://hyungsook.netlify.app//
 
 paginate:         1
 # paginate_path:    '/page:num'
