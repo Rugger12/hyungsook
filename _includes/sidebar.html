@@ -1,0 +1,26 @@
+<div id="sidebar">
+  <header>
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <a href="{{ "/" | relative_url }}">
+        {% unless page.url == "/" %}
+          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endunless %}
+        {{ site.title }}
+      </a>
+    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    <p class="lead">{{ site.description }}</p>
+  </header>
+  {% include sidebar-nav-links.html %}
+
+</div>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153070260-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153070260-1');
+</script>
