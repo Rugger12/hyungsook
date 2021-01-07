@@ -6,8 +6,8 @@ highlighter:      rouge
 title:            김형숙
 tagline:          'Hyungsook Kim'
 description:      
-                  한양대학교
-                  심리뇌과학과 부교수 
+                  한양대학교 부교수
+                  
 url:              'https://hyungsook.github.io/'
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
