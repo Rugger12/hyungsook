@@ -18,7 +18,7 @@ baseurl:          ''
 
 author:
   name:           'hyungsook Kim'
-  url:            https://hyungsook.netlify.app//
+  url:            https://hyungsook.netlify.app/
 
 paginate:         1
 # paginate_path:    '/page:num'
