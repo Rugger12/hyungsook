@@ -1,3 +1,2 @@
 source "https://rubygems.org"
-
-gem update --system
+gem 'github-pages'
